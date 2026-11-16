@@ -1,0 +1,157 @@
+01 - PHP: Hypertex Preprocessor (Pré-processador de Hpipertexto). É um  exemplo de acrônimo recursivo.
+
+
+02 - Linguagem de Progamação?
+ É uma linguagem de script de código aberto (open-source), e gratuita.
+
+
+03 - Qual é a diferença entre HTML E PHP?
+R: HTML define a estrutura da página. PHP executa a lógica no servidor e pode gerar HTML dinamicamente.
+
+
+04 - Como abrimos e fechamos um bloco PHP?
+R: <?php?>
+
+
+05 - Para que serve 'echo'? 
+R: Para exibir uma saída, como texto.
+
+
+06 - Como declaramos uma variável no PHP?
+R: Usamos "$" antes da variável a ser criada.
+
+
+07 - Como exibimos uma variável PHP entro do HTML?
+R: <?= $variavel ?> OU <?php echo $variavel ?>
+
+
+08 - Qual a diferença entre =e == no PHP?
+R: é Atribuição | == é Coparação
+
+
+09 - para que serve o . no PHP?
+R: Para concatenar textos.
+
+
+10 - O que é o método GET?
+R:É um método HTTP utilizado principalmente para solicitar ou consultar recursos.
+
+
+11 - P que é o método POST?
+R: É um método HTTP utilizado para enviar dados ao servidor.
+
+
+12 - Qual a PRINCIPAL diferença VISÍVEL entre GET e POST>
+R: GET dá para as informações pela URL, e no POST não.
+
+
+13 - Como defino que o FORM será GET ou POST?
+R: Usando: method="GET" ou method="POST".
+
+
+14 - Como receber no bloco PHP odado inserido em um cmapo específico de um formulário GET?
+R: $_GET['nome'];
+
+
+15 - Como receber no bloco PHP o dado inserido em um campo específico de um formulário POST?
+R: $_POST['nome'];
+
+
+16 - O que é $_SERVER['REQUEST_METHOD']?
+R: É uma informação da superglobal $_SERVER que indica o método HTTP utilizado na requisição, como GET ou POST.
+
+
+17 - O que são variáveis superglobais?
+R:São variáveis disponibilizadas pelo PHP.
+
+
+18 - Quais as principais superglobais já utilizadas em sala de aula?
+R: $_SERVER - $_POST - $_GET - $_REQUEST - $_ENV - $_SESSION.
+
+
+19 - Como importar um arquivo PHP dentro de outro arquivo PHP?
+R: require, require_once, include, include_once. 
+
+
+20 - Qual a diferença entre include e require?
+R: Se o arquivo não puder ser carregado, INCLUDE emite um aviso e o script pode continuar; REQUIRE provoca um erro que interrompe a execução.
+
+
+21 - Qual a diferença entre require_once e require?
+R: REQUIRE carrega o arquivo a cada chamada. REQUIRE_ONCE evita carregá-lo novamente na mesma execução.
+
+
+22 - O que faz htmlspecialchars()?
+R: Converte caracteres especiais em entidades HTML.
+
+
+23 - O que significa a sigla POO?
+R: Progamação Orientada a Objetos.
+
+
+24 - O que é POO?
+R: É um paradigma de programação que organiza dados e comportamentos.
+
+
+25 - O que é o "$this->nome"? 
+R: É o acesso à propiedade nome do própio objeto atual.
+
+
+26 - Quais são os quatro pilares do POO?
+R: Encapsulamento, herança, polimofismo e abstração.
+
+
+27 - Qual a diferença entre public, private e protected?
+R:public permite acesso externo; private restringe à própia classe; protected permite acesso na classe e em suas classes filhas.
+
+
+28 - Podemos criar um objeto diretamente de uma abstract class?
+R: Não.
+
+
+29 - O que significa SGBD?
+R: Sistema Gerenciador de Banco de Dados.
+
+
+30 - O que é PDO?
+R: É uma interface do PHP para acessar banco de dados pro meio de drivers, incluindo MySQL.
+
+
+31 - Como criamos uma conexão PDO com MySQL?
+R: $pdo = new PDO('myql:host=localhost;dbname=escola;charset=utf8mb4','usuario','senha');
+
+
+32 - qual a diferença de $pdo->exec(); e $pdo->query();?
+R: exec não há retorno, query() executa uma consulta SQL com retorno.
+
+
+33 - Para que servem fetch() e fetchAll()?
+R:
+
+
+34 - Qual é o "CRUD" do Banco de Dados?
+R: 
+
+
+35 - 
+R:
+
+
+36 - 
+R:
+
+
+37 - 
+R:
+
+
+38 - 
+R:
+
+
+39 - 
+R:
+
+
+40 - 
+R:
